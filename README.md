@@ -1,10 +1,13 @@
-# 🎮 Nontendo
+# Nontendo
 
 **Nontendo** is a minimal gamepad project built using the [Glyph-C3](https://pcbcupid.com/glyph-c3) board from **PCBCupid**. It showcases a set of classic retro-style games implemented directly on the ESP32-C3 microcontroller, featuring simple display, audio, and button inputs — all built into the tiny Glyph-C3 form factor.
 
+![Nontendo Glyph-C3 Gamepad](image.jpg)
+
+
 ---
 
-## 📦 What's in the Box?
+## What's in the Box?
 
 This repository includes fully working Arduino-based implementations of the following games:
 
@@ -17,7 +20,7 @@ This repository includes fully working Arduino-based implementations of the foll
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 - **Board**: [Glyph-C3](https://pcbcupid.com/glyph-c3) (ESP32-C3 based)
 - **Display**: 128×32 I2C OLED (SSD1306)
