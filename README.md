@@ -2,8 +2,7 @@
 
 **Nontendo** is a minimal gamepad project built using the [Glyph-C3](https://pcbcupid.com/glyph-c3) board from **PCBCupid**. It showcases a set of classic retro-style games implemented directly on the ESP32-C3 microcontroller, featuring simple display, audio, and button inputs — all built into the tiny Glyph-C3 form factor.
 
-![Nontendo Glyph-C3 Gamepad](image.jpg)
-
+![Nontendo Glyph-C3 Gamepad](image.png)
 
 ---
 
@@ -11,12 +10,12 @@
 
 This repository includes fully working Arduino-based implementations of the following games:
 
-| Game             | Folder Name   | Description                             |
-|------------------|---------------|-----------------------------------------|
-| 🐍 Snake          | `work`        | A thinner, slower snake game with buzzer and win/lose states. |
-| 🧍 Prince of Persia | `peasant-of-persia` | A tiny tribute with basic movement, traps, and ledges. |
-| ❌⭕ Tic Tac Toe   | `tic-tac-toe` | 2-player local mode with visual feedback. |
-| 🏓 Pong           | `pong`        | Single or dual-player paddle battle. |
+| Game                | Folder Name         | Description                                                   |
+| ------------------- | ------------------- | ------------------------------------------------------------- |
+| 🐍 Snake            | `work`              | A thinner, slower snake game with buzzer and win/lose states. |
+| 🧍 Prince of Persia | `peasant-of-persia` | A tiny tribute with basic movement, traps, and ledges.        |
+| ❌⭕ Tic Tac Toe    | `tic-tac-toe`       | 2-player local mode with visual feedback.                     |
+| 🏓 Pong             | `pong`              | Single or dual-player paddle battle.                          |
 
 ---
 
@@ -44,7 +43,7 @@ Each game is a self-contained Arduino sketch that you can compile and flash usin
 ### Wiring (already pre-wired in Glyph-C3)
 
 | Pin        | Connected To   |
-|------------|----------------|
+| ---------- | -------------- |
 | GPIO2      | Right Button   |
 | GPIO3      | Left Button    |
 | GPIO21     | Buzzer         |
@@ -76,8 +75,8 @@ Each game is a self-contained Arduino sketch that you can compile and flash usin
 ---
 
 ## Future Ideas
-Make it good and less jank.
----
+
+## Make it good and less jank.
 
 ## License
 
@@ -86,4 +85,4 @@ Feel free to fork and expand the Nontendo experience.
 
 ---
 
-> *"It’s not Nintendo… but it’s good enough to kill time on the bus."*
+> _"It’s not Nintendo… but it’s good enough to kill time on the bus."_
